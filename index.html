@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Contatos</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/telefone.png" alt="">
+        <h1>Agende seus Contatos!</h1>
+    </header>
+
+    <div>
+        <form id="form-cadastro">
+            <input type="text" placeholder="Nome" required id="nome-contato">
+            <input type="number" placeholder="Telefone" id="numero-cadastrado" min-length="10" max-length="13" required>
+            <button type="submit">Cadastrar +</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Contato</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
